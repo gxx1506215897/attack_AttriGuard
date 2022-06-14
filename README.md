@@ -2,7 +2,7 @@
 We employ 0-norm projected gradient descent (PGD) for adversarial training (AT), while using simple random sampling and early stopping to train a more robust attack model for attacking [AttriGuard](https://arxiv.org/abs/1805.04810). We conduct experiments using the AttriGuard [dataset](https://github.com/jjy1994/AttriGuard), and the experimental results demonstrate the effectiveness of the attack.
 ## Experimental result
 <p>
-  <img src="https://github.com/gxx1506215897/attack_AttriGuard/blob/main/experimental_results/att.png" alt='images' width="500"/>
+  <img src="https://github.com/gxx1506215897/attack_AttriGuard/blob/master/experimental_results/att.png" alt='images' width="500"/>
 </p>
 
 We used 9 attack methods to attack AttriGuard. The attack structure is shown in Fig. In the process of increasing the data loss budget, the inference accuracy of our attack decreases more slowly relative to the attack in AttriGuard. The experimental results show that our attack is effective.
